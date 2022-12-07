@@ -1,3 +1,7 @@
+--
+title: Docs
+--
+
 # Documentation
 
 Date/time converter into "n time ago" format that supports multiple languages. You can contribute any language that you wish easily by creating a pull request. I would gladly merge it in if you follow the simple steps.
