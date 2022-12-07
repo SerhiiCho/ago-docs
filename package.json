@@ -1,8 +1,15 @@
 {
   "name": "ago-docs",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "docs/dist/index.js",
   "repository": "https://github.com/SerhiiCho/ago-docs",
   "author": "SerhiiCho <serhiicho@protonmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.53"
+  }
 }
