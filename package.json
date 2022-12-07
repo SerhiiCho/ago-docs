@@ -1,0 +1,8 @@
+{
+  "name": "ago-docs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/SerhiiCho/ago-docs",
+  "author": "SerhiiCho <serhiicho@protonmail.com>",
+  "license": "MIT"
+}
