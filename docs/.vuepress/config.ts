@@ -34,7 +34,7 @@ export default defineUserConfig({
                 link: 'https://github.com/SerhiiCho/ago/blob/master/CHANGELOG.md',
             },
             {
-                text: '👨🏻‍💻 About author',
+                text: '👨🏻‍💻 Author',
                 link: 'https://serhii.io/about-me',
                 rel: 'author',
             },
