@@ -17,6 +17,7 @@ This package is well tested, optimized and already used in many production apps.
 - ✅ 8.0
 - ✅ 8.1
 - ✅ 8.2
+- ✅ 8.3
 
 ## ⚙️ Configurations
 
