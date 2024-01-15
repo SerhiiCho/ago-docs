@@ -75,6 +75,8 @@ TimeAgo::trans(time() + 86400); // output: 1 day
 TimeAgo::trans('now + 10 minutes'); // output: 10 minutes
 ```
 
+> If you use version < 2.2.0 then TimeAgo::trans() method except only type string.
+
 ## 🤲 Options
 
 As the seconds argument `trans` method excepts array of options or single option. Here is an example of passed options.
