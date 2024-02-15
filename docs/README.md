@@ -37,6 +37,9 @@ Serhii\Ago\Lang::set('ru');
 | 🇷🇺 | Russian | ru |
 | 🇺🇦 | Ukrainian | uk |
 | 🇳🇱 | Dutch | nl |
+| 🇩🇪 | German | de |
+
+> Make sure to update the package to the latest version to get the latest languages support.
 
 ### Overwrite translations
 There are cases when you want to replace certain words with specific ones. You can do it with “Overwrites”. All you need to do is just to pass `array<string, string>` of values that you want to overwrite.
