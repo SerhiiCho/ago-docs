@@ -31,13 +31,13 @@ Serhii\Ago\Lang::set('ru');
 
 ### Supported languages
 
-| Flag | Language | Code (ISO 639-1) |
-| --- | --- | --- |
-| 🇬🇧 | English | en |
-| 🇷🇺 | Russian | ru |
-| 🇺🇦 | Ukrainian | uk |
-| 🇳🇱 | Dutch | nl |
-| 🇩🇪 | German | de |
+| Flag | Language  | Code (ISO 639-1) |
+| ---- | --------- | ---------------- |
+| 🇬🇧    | English   | en               |
+| 🇷🇺    | Russian   | ru               |
+| 🇺🇦    | Ukrainian | uk               |
+| 🇳🇱    | Dutch     | nl               |
+| 🇩🇪    | German    | de               |
 
 > Make sure to update the package to the latest version to get the latest languages support.
 
@@ -98,11 +98,11 @@ TimeAgo::trans(time(), Option::JUST_NOW); // Just now
 
 All options are available in `Serhii\Ago\Option::class` as constants.
 
-| Option | Description |
-| --- | --- |
-| ONLINE | Display "Online" if date interval within 60 seconds. After 60 seconds output will be the same as usually "x time ago" format. Incompatible with option `JUST_NOW` |
-| NO_SUFFIX | Remove suffix from date and have "5 minutes" instead of "5 minutes ago". |
-| JUST_NOW | Prints `Just now` when time is within 1 minutes. For example instead of `34 seconds ago` it will print `Just now`. Incompatible with option `ONLINE`. |
+| Option    | Description                                                                                                                                                       |
+| --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ONLINE    | Display "Online" if date interval within 60 seconds. After 60 seconds output will be the same as usually "x time ago" format. Incompatible with option `JUST_NOW` |
+| NO_SUFFIX | Remove suffix from date and have "5 minutes" instead of "5 minutes ago".                                                                                          |
+| JUST_NOW  | Prints `Just now` when time is within 1 minutes. For example instead of `34 seconds ago` it will print `Just now`. Incompatible with option `ONLINE`.             |
 
 ## 🎁 Contribute another language
 
