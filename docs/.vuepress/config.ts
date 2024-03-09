@@ -22,10 +22,6 @@ export default defineUserConfig({
                 link: '/',
             },
             {
-                text: 'Usage example',
-                link: 'https://replit.com/@SerhiiCho/Usage-of-ago-package',
-            },
-            {
                 text: 'GitHub',
                 link: 'https://github.com/SerhiiCho/ago',
             },
