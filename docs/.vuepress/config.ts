@@ -1,10 +1,16 @@
-import { defineUserConfig, defaultTheme } from 'vuepress'
+import { defineUserConfig } from 'vuepress'
 import { searchPlugin } from '@vuepress/plugin-search'
+import { viteBundler } from '@vuepress/bundler-vite'
+import { defaultTheme } from '@vuepress/theme-default'
+import customStyles from './modules/customStyles'
 
 export default defineUserConfig({
     base: '/ago-docs/',
     lang: 'en-US',
     title: 'Ago',
+    head: [
+        ['style', { type: 'text/css' }, customStyles]
+    ],
     description: 'Date/time converter into "n time ago" format that supports multiple languages',
     plugins: [
         searchPlugin({
@@ -15,6 +21,10 @@ export default defineUserConfig({
             },
         })
     ],
+    bundler: viteBundler({
+        viteOptions: {},
+        vuePluginOptions: {},
+    }),
     theme: defaultTheme({
         navbar: [
             {

@@ -4,13 +4,24 @@
   "main": "docs/dist/index.js",
   "repository": "https://github.com/SerhiiCho/ago-docs",
   "author": "SerhiiCho <serhiicho@protonmail.com>",
+  "description": "Documentation website for Ago library for PHP",
   "license": "MIT",
+  "contributors": [
+    {
+      "name": "SerhiiCho",
+      "email": "serhiicho@protonmail.com"
+    }
+  ],
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"
   },
   "devDependencies": {
-    "@vuepress/plugin-search": "2.0.0-beta.53",
-    "vuepress": "2.0.0-beta.53"
+    "@vuepress/bundler-vite": "^2.0.0-rc.8"
+  },
+  "dependencies": {
+    "vuepress": "^2.0.0-rc.8",
+    "@vuepress/plugin-search": "^2.0.0-rc.8",
+    "@vuepress/theme-default": "^2.0.0-rc.8"
   }
 }
